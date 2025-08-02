@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body>
+    <!-- Header part Desing -->
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <!-- Welcome Text -->
+                <section id="Welcome Text">
+                <h1>Welcome to Laundry Mart</h1>
+                </section>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Image and Description -->
+                    <section id="image">
+                    <img src="laundry.jpg" alt="Laundry Mart" height="280">
+                    </section>
+                </td>
+                <td>
+                    <!-- Description -->
+                <section id="Descrip">
+                    <p>
+                        🧺✨ Laundry Mart --Where Freshness Meets Convenience! ✨🧺
+                        <br>
+                        Tired of laundry piling up? Let Laundry Mart take the load off your shoulders!
+                        <br>
+                        <br>
+                        ✅ Fast, Fresh & Flawless Laundry Service
+                        <br>
+                        ✅ Affordable Prices – Quality care without breaking the bank
+                        <br>
+                       ✅ Same-Day Service Available
+                        <br>
+                        ✅ Wash, Dry, Fold, Iron – We Do It All!
+                        <br>
+                        ✅ Eco-Friendly Detergents for a greener clean
+                        <br>
+                        <br>
+                        📍 Visit us at your nearest location or 📞 call for pick-up & delivery!
+                        <br>
+                       💦 Your clothes deserve the best – they deserve Laundry Mart.
+                        <br>
+                          Fresh Clothes. Happy You. Only at Laundry Mart!
+                    </p>
+                </section>
+                </td>
+            </tr>
+        </table>
+    </header>
+     <hr>
+     <!-- Navigation Bar -->
+        <nav>
+            <label for="Our Service"><a href="#Our Services">Our Service</a></label>
+            &nbsp; &nbsp; &nbsp;
+            <label for="Prices"><a href="#Prices">Prices</a></label>
+            &nbsp;&nbsp;&nbsp;
+            <label for="Book Now"><a href="#BookNow">Book Now</a></label>
+            &nbsp;&nbsp;&nbsp;
+            <label for="Connect with us"><a href="#CWU">Connect with us</a></label>
+        </nav>
+    <!-- Main part Starts here -->
+    <main>
+        <hr>
+        <!-- Services Details -->
+        <section id="Our Services">
+             <h2>Our Services</h2>
+             <ul>
+                <li>Washing and drying</li>
+                <li>Ironing and Folding</li>
+                <li>Dry Cleaning</li>
+                <li>Stain Removal</li>
+                <li>Express Service</li>
+                <li>Special Germent care</li>
+                <li>And many more</li>
+             </ul>
+        </section>
+        <hr>
+        <!-- Pricing Details -->
+        <section id="Prices">
+            <h2>Prices</h2>
+                 <table border="">
+                    <caption>Basic Services</caption>
+                    <tr>
+                        <th>Services</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Wash and Fold</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Cleaning</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Ironing</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>Bedding</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Towels</td>
+                        <td>$2.00</td>
+                    </tr>
+                 </table>
+                 <br>
+                 <br>
+                 <table border="">
+                    <caption>Special Services</caption>
+                    <tr>
+                        <th>Special Services</th>
+                        <th>Prices</th>
+                    </tr>
+                    <tr>
+                        <td>Stain Removal</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>Delicate Febric Handling</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Express Service</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Alteration & Repairing</td>
+                        <td>Varies</td>
+                    </tr>
+                    <tr>
+                        <td>Wedding Dress Cleaning</td>
+                        <td>$50.00</td>
+                    </tr>
+                 </table>
+        </section>
+        <hr>
+        <!-- Online Booking -->
+        <section id="BookNow">
+            <h2>Online Booking</h2>
+            <form action="reciept.html">
+                <!-- Personal Information -->
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Write your full name" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="abc@gmail.com">
+                <br>
+                <br>
+                <label for="mob">Phone Number</label>
+                <input type="number" minlength="10" maxlength="10" placeholder="0123456789" required>
+                <br>
+                <br>
+                <!-- Services -->
+                <label for="service">Required Services</label>
+                <select name="service" id="service" multiple>
+                    <option value="">Select</option>
+                    <option value="Wash & fold">Wash & fold</option>
+                    <option value="Dry Cleaning">Dry Cleaning</option>
+                    <option value="Ironing">Ironing</option>
+                    <option value="Bedding">Bedding</option>
+                    <option value="Towels">Towels</option>
+                    <option value="Stain Removal">Stain Removal</option>
+                    <option value="Delicate fabric Handling">Delicate fabric Handling</option>
+                    <option value="Express Service">Express Service</option>
+                    <option value="Alternations & Repairs">Alternations & Repairs</option>
+                    <option value="Wedding Dress Cleaning">Wedding Dress Cleaning</option>
+                </select>
+                <br>
+                <br>
+                <!-- Booking and Payment Options -->
+                <label for="pay">Payment Options</label>
+                <select name="pay" id="payment" required>
+                    <option value="Cash on Delivery">Cash on Delivery</option>
+                    <option value="Gpay">Gpay</option>
+                    <option value="PhonePe">PhonePe</option>
+                    <option value="SBI Internet Banking">SBI Internet Banking</option>
+                    <option value="Canara Internet Banking">Canara Internet Banking</option>
+                </select>
+                <br><br>
+                <!-- Fill up Done -->
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <!-- Main Part Ends Here -->
+    <hr>
+    <hr>
+    <!-- Some Additional Info -->
+    <footer>
+        <section id="CWU"></section>
+        <h3>Connect with Us</h3>
+        <p>
+            📱 Track Your Order Online - Stay updated from start to finish
+---
+<br>
+<br><br>
+<!-- Contact and address details -->
+<strong>Location & Timings</strong>
+<br>
+📌 Address: BAZMUSSALAM, MASJID LANE, Military Rd, near SevenHills Hospital, Marol, JUNCTION, Andheri, Mumbai, Maharashtra 400059
+<br>
+⏰ Open: Monday - Sunday | 8:00 AM - 9:00 PM
+<br>
+☎ Call / WhatsApp: +91 988332XXXX
+<br>
+🌐 Website: www.laundrymart.com
+<br>
+📲 Follow us on Instagram & Facebook for exciting offers!
+<br>
+---
+<br><br>
+<!-- Offers Section -->
+<strong>💥 Current Offers</strong>
+<br>
+🎉 First Wash Free for New Customers
+<br>
+💑 Couple Combo Pack - Wash more, save more!
+ <br>
+👨‍👩‍👧‍👦 Family Value Plans - Weekly service at discounted rates
+        </p>
+    </footer>
+</body>
+</html>
